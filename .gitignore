@@ -1,0 +1,16 @@
+# Ignora a pasta com todas as dependências
+node_modules/
+
+# Ignora o arquivo de log de erros
+npm-debug.log
+
+# Ignora variáveis de ambiente (nunca suba isso!)
+.env
+
+# Ignora builds de produção (caso use)
+dist/
+build/
+
+# Ignora arquivos do sistema
+.DS_Store
+Thumbs.db
