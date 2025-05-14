@@ -4,6 +4,11 @@ const path = require('path');
 module.exports = {
     entry: './src/index.js',
     mode: 'development',
+    devServer: {
+        hot: false,
+        static: './dist',
+    },
+
     output: {
         filename: 'main.js',
         clean: true,
@@ -29,5 +34,5 @@ module.exports = {
             "worker_threads": false,
         }
     }
-    
+
 };
